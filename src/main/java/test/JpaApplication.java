@@ -17,7 +17,7 @@ public class JpaApplication {
 		EntityTransaction tx = em.getTransaction();
 		
 		tx.begin();
-		
+		//test
 		try {
 			Member member = new Member();
 			member.setId(100L);
